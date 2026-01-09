@@ -1,0 +1,23 @@
+{
+  "name": "electric-or-subquery-bug",
+  "type": "module",
+  "scripts": {
+    "dev": "bun --hot serve.ts",
+    "db:push": "drizzle-kit push",
+    "db:studio": "drizzle-kit studio",
+    "seed": "bun run src/seed.ts"
+  },
+  "dependencies": {
+    "@electric-sql/react": "^1.0.0",
+    "drizzle-orm": "^0.38.2",
+    "postgres": "^3.4.5",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.1.14",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "drizzle-kit": "^0.30.1"
+  }
+}
